@@ -1,7 +1,6 @@
 ## Tranquilo? Eu sou o Diêgo Farias!
 
 - 🔭 Currently, studying Computer Science at UESC-BA
-- 🌱 Nowadays, focused on specializing HTML, CSS and JS 
 - 😄 Pronouns: he/him
 - 💕 Free Time: Meditate, watch series/movies and play some Lol 🐱‍👤
 
