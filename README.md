@@ -2,7 +2,6 @@
 
 - 🔭 Currently, studying Computer Science at UESC-BA
 - 😄 Pronouns: he/him
-- 💕 Free Time: Meditate, watch series/movies and play some Lol 🐱‍👤
 
 <div align="center">
   <a href="https://github.com/Difarias">
