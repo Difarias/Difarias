@@ -24,11 +24,11 @@
         <li>Focado em Inteligência Artificial, Sistemas Multiagentes e Modelagem de Agentes Inteligentes</li>
       </ul>
     </td>
-    <td width="45%" valign="top">
+    <td width="50%" valign="top">
       <h3>⚡ Atividade no GitHub</h3>
       <div align="center">
-        <!-- Cobra dinâmica dos commits -->
-        <img src="https://raw.githubusercontent.com/Difarias/Difarias/output/github-contribution-grid-snake-dark.svg" alt="Snake Commit Animation" width="100%" />
+        <!-- Animação Snake dinâmica via Platane/snk sem depender de workflows locais -->
+        <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
       </div>
     </td>
   </tr>
