@@ -36,7 +36,7 @@
 
 ---
 
-### 💻 Tecnologias & Ferramentas
+### 💻 Tecnologias & Ferramentas Focadas no Momento
 
 <div align="center">
   <!-- Badges específicas da stack de IA e Python -->
