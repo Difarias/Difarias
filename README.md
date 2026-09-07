@@ -60,8 +60,3 @@
 </div>
 
 ---
-
-<!-- Rodapé estilo Terminal Verde/Preto -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=70&section=footer&text=Di%C3%AAgo%20Farias%20de%20Freitas%20%7C%20Modelagem%20Computacional&fontSize=16&fontColor=00FF66" width="100%"/>
-</div>
