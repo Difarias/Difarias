@@ -8,7 +8,7 @@
 <br/>
 
 <!-- Social Badges Verde/Preto sem redundância visual -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF66&borderColor=00FF66)](https://www.linkedin.com/in/diego-farias-de-freitas-ab1202248/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF66&borderColor=00FF66)]([https://www.linkedin.com/in/diego-farias-de-freitas-ab1202248/](https://www.linkedin.com/in/diego-farias-de-freitas/))
 [![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FF66&borderColor=00FF66)](mailto:dffreitas.cic@uesc.br)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=00FF66&borderColor=00FF66)](https://wa.me/5573988644040)
 [![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=00FF66&borderColor=00FF66)](https://www.instagram.com/diifaarias/)
