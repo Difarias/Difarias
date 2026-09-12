@@ -1,4 +1,4 @@
-name: Generate Space Invaders Grid
+name: Generate Snake Grid
 
 on:
   schedule:
@@ -11,11 +11,17 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Retro Arcade Grid
-        uses: lowlighter/metrics@latest
+      - name: Generate Custom Snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
-          filename: github-contribution-grid-snake-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          github_user_name: Difarias
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#39FF14&color_dots=#161b22,#004d1a,#009933,#02e043,#39FF14
+
+      - name: Push Snake SVG to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
