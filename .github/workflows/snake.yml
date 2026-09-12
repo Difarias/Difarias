@@ -11,12 +11,12 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Custom Snake SVG
+      - name: Generate Purple Synthwave Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Difarias
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#39FF14&color_dots=#161b22,#004d1a,#009933,#02e043,#39FF14
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#E024FF&color_dots=#161b22,#3c096c,#5a189a,#7b2cbf,#9d4edd
 
       - name: Push Snake SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
