@@ -1,4 +1,4 @@
-name: Generate Spacecraft Grid
+name: Generate Space Invaders Grid
 
 on:
   schedule:
@@ -11,9 +11,11 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Space Invaders Grid
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Retro Arcade Grid
+        uses: lowlighter/metrics@latest
         with:
-          github_user_name: Difarias
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00FF66&color_dots=#161b22,#013a18,#006d32,#00a648,#00ff66
+          filename: github-contribution-grid-snake-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
