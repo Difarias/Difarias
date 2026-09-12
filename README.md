@@ -41,3 +41,11 @@
 | Core Data      NumPy · Pandas                                                                  |
 | Core Infra     Git · GitHub Actions · Vercel                                                   |
 +------------------------------------------------------------------------------------------------+
+
+---
+
+### **Arcade Commit Grid**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Difarias/Difarias/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
