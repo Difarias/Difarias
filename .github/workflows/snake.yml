@@ -1,4 +1,4 @@
-name: Generate Snake Grid
+name: Generate Spacecraft Grid
 
 on:
   schedule:
@@ -11,17 +11,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake SVG
+      - name: Generate Space Invaders Grid
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Difarias
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?color_snake=#00FF66&color_dots=#161b22,#013a18,#006d32,#00a648,#00ff66
-
-      - name: Push Snake SVG to Output Branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
