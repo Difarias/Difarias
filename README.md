@@ -41,7 +41,7 @@
 | Core Data      NumPy · Pandas                                                                  |
 | Core Infra     Git · GitHub Actions · Vercel                                                   |
 +------------------------------------------------------------------------------------------------+
-
+```
 ---
 
 ### **Arcade Commit Grid**
